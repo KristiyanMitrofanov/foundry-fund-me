@@ -1,9 +1,5 @@
 # Foundry Fund Me
 
-This is a section of the Cyfrin Solidity Course.
-
-*[⭐️ (0:00:00) | Lesson 7: Foundry Fund Me](https://www.youtube.com/watch?v=sas02qSFZ74&t=0s)*
-
 - [Foundry Fund Me](#foundry-fund-me)
 - [Getting Started](#getting-started)
   - [Requirements](#requirements)
@@ -54,15 +50,9 @@ forge script script/DeployFundMe.s.sol
 
 ## Testing
 
-We talk about 4 test tiers in the video. 
-
 1. Unit
 2. Integration
 3. Forked
-4. Staging
-
-This repo we cover #1 and #3. 
-
 
 ```
 forge test
@@ -89,7 +79,6 @@ forge test --fork-url $SEPOLIA_RPC_URL
 ```
 forge coverage
 ```
-
 
 # Deployment to a testnet or mainnet
 
